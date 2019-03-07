@@ -1,0 +1,42 @@
+{
+  "name": "graphql-express-nodejs",
+  "version": "1.0.0",
+  "description": "A Simple GraphQL Server implementation using Express and NodeJS",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "JavaScript",
+    "NodeJS",
+    "Express",
+    "GraphQL"
+  ],
+  "dependencies": {
+    "babel": "^6.23.0",
+    "eslint": "^5.9.0",
+    "esm": "^3.0.84",
+    "express": "^4.16.4",
+    "express-graphql": "^0.6.12",
+    "graphql": "^0.10.5",
+    "lodash": "^4.17.11",
+    "node-fetch": "^2.3.0",
+    "request": "^2.88.0",
+    "universal-fetch": "^1.0.0"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ],
+    "sourceMaps": true,
+    "retainLines": true
+  },
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
